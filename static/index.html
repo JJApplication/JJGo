@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="google" content="notranslate" />
+    <meta name="apple-mobile-web-app-title" content="JJGo API">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="x5-page-mode" content="app">
+    <meta name="renderer" content="webkit">
+    <meta name="browsermode" content="application">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <title>JJGo: Go-Based API Server</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.20.0/dist/axios.min.js" integrity="sha256-KyY5SqyBmXeM0zfYBGU1tuqcstxpjkECApypY+CA4Z8=" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{margin: 0;padding: 0;font-family: sans-serif;min-font-size: 10px}
+    h1{font-size: 48px;font-weight: bold;margin-top: 10px;margin-bottom: 10px}
+    h2{font-size: 32px;font-weight: bold;margin-top: 25px;margin-bottom: 6px}
+    h3{font-size: 18px;font-weight: bold;margin-top: 12px;margin-bottom: 6px;color: #6f6f6f}
+    p{font-size: 18px;line-height: 1.5;margin-top: 4px;margin-bottom: 4px}
+    a{font-size: 18px;color: #19a974;text-decoration: none;cursor: url("/pig.png"),pointer}
+    html, body{height: 100%;color: #4f4f4f;user-select: none;-webkit-tap-highlight-color: transparent;cursor: url("/pig.png"),pointer}
+    #app{text-align: center;height: inherit}
+    #body{transform: translateY(45%)}
+    img{width: 180px;border-radius: 30px;margin: 15px 0}
+
+    @media (max-width: 460px) {
+        h1{font-size: 34px}
+        h2{font-size: 28px}
+        h3{font-size: 17px}
+        img{width: 128px}
+        #body{transform: translateY(20%)}
+    }
+</style>
+<body>
+    <div id="app">
+        <div id="body">
+            <img src="jjgo.png">
+            <h1>JJGo API Server</h1>
+            <h3>Written in Go, Copyright <a href="http://renj.io">©Renj.io</a></h3>
+            <div style="margin-top: 20px">
+                <h2>Status</h2>
+                <p>在线状态: <span id="status">🔴</span>&emsp;访问量: <span id="count"></span></p>
+                <h2>Docs</h2>
+                <a href="/swagger">JJGo Swagger Docs</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function init() {
+        axios.get("/rest/jjgo/status").then(res=>{
+            let data = res.data.data;
+            if (data.pid !== ""){
+                document.getElementById("status").innerText = "🟢";
+            }else {
+                document.getElementById("status").innerText = "🔴";
+            }
+            if (data.count !== undefined || true){
+                document.getElementById("count").innerText = data.count;
+            }else {
+                document.getElementById("count").innerText = "Failed to get";
+            }
+        });
+    }
+    window.onload = function () {
+        init();
+    }
+</script>
+</html>

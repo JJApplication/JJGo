@@ -1,0 +1,16 @@
+{
+  "app": "jjgo",
+  "app_version": "20.10.30",
+  "app_des": "jjgo restful api server",
+  "app_id": "app_jjgo",
+
+  "gofmt": false,
+
+  "mode": "dev",
+  "config_path": "./conf",
+  "config_dev": "开发文件名",
+  "config_prod": "生产文件名",
+
+  "cluster": false,
+  "cluster_size": 3
+}

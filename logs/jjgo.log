@@ -1,0 +1,2065 @@
+<JJGoLog>2020/10/24 19:10:53 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:23:58 jj_logger.go:72: Infos: Server will wait 3 seconds to Exit.
+<JJGoLog>2020/10/24 19:33:07 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:33:24 jj_logger.go:72: Infos: Server will wait 3 seconds to Exit.
+<JJGoLog>2020/10/24 19:45:20 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:49:42 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/24 19:49:45 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:51:31 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/24 19:51:34 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/24 19:51:34 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:53:04 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/24 19:53:07 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/24 19:53:07 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/24 19:56:46 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/26 23:42:58 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/26 23:42:58 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/26 - 23:44:18 | 200 127.0.0.1 | GET | [ /rest/jjgo/pub] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:44:32 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:44:49 | 200 127.0.0.1 | GET | [/rest/jjgo/demo] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:45:01 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/26 23:45:59 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/26 23:46:02 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/26 23:46:02 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/26 - 23:46:03 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:11 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:13 | 200 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:13 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:14 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:18 | 200 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:18 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:18 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:18 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:18 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:19 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:19 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:19 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/26 - 23:46:19 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/27 01:23:00 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/27 01:23:03 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/27 01:23:03 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/27 - 01:23:25 | 304 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/27 - 01:23:25 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/27 - 01:23:30 | 304 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/27 - 01:23:30 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/27 - 01:23:33 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/27 04:56:21 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/27 05:05:01 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 0
+<JJGoLog>2020/10/27 05:05:01 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:06:57 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/27 05:19:06 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 0
+<JJGoLog>2020/10/27 05:19:06 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:19:19 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1
+<JJGoLog>2020/10/27 05:19:19 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:19:19 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1
+<JJGoLog>2020/10/27 05:19:19 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:20:51 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 8011
+<JJGoLog>2020/10/27 05:20:51 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 8011
+<JJGoLog>2020/10/27 05:20:51 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:20:51 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:21:32 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 8011
+<JJGoLog>2020/10/27 05:21:32 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 8011
+<JJGoLog>2020/10/27 05:21:32 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:21:32 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:23:22 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 12777
+<JJGoLog>2020/10/27 05:23:22 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 12777
+<JJGoLog>2020/10/27 05:23:22 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:23:22 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:27:04 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 12777
+<JJGoLog>2020/10/27 05:27:04 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 12777
+<JJGoLog>2020/10/27 05:27:04 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:27:04 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:27:59 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 0, 端口: 12666
+<JJGoLog>2020/10/27 05:27:59 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:27:59 jj_logger.go:72: Infos: 以集群模式运行, 实例ID: 1, 端口: 12777
+<JJGoLog>2020/10/27 05:27:59 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo_cluster*.pid
+<JJGoLog>2020/10/27 05:31:51 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/27 05:31:51 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/27 22:25:01 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/28 23:30:08 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/28 23:30:08 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/28 - 23:31:18 | 304 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:31:18 | 304 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:31:18 | 304 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:31:18 | 304 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:31:18 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:36:02 | 304 127.0.0.1 | GET | [       /swagger] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:36:03 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/10/28 - 23:36:03 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/28 23:36:56 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/29 22:35:26 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 22:35:26 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 22:35:26 jj_logger.go:64: Error, JJGo start failed: listen tcp 127.0.0.1:10086: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+<JJGoLog>2020/10/29 22:35:51 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 22:35:51 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 22:35:56 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/29 22:36:53 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 22:36:53 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 22:36:55 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/29 22:38:42 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 22:38:42 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 22:41:11 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 22:41:11 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:36:09 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:36:09 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:44:16 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:44:16 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:45:19 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:45:19 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:45:40 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:45:40 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:46:12 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:46:12 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:47:56 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:47:56 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:47:58 jj_logger.go:72: Infos: Server will wait 3 seconds to Exit.
+<JJGoLog>2020/10/29 23:47:58 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/29 23:48:35 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/29 23:48:35 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/29 23:48:36 jj_logger.go:72: Infos: Server will wait 3 seconds to Exit.
+<JJGoLog>2020/10/29 23:48:36 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:06:46 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:06:46 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:06:58 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 00:06:58 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:12:44 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:12:44 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:13:11 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:13:18 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:13:18 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:13:24 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:13:32 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:13:32 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:13:37 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 00:13:37 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:18:19 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:18:19 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:18:58 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 00:18:58 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:52:13 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:52:13 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:52:26 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 00:53:18 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 00:53:18 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 00:53:19 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 00:53:19 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:49:32 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:49:32 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/30 - 23:49:48 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/30 23:50:59 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 23:50:59 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:51:05 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:51:05 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/30 - 23:51:07 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/30 23:52:20 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 23:52:20 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:52:25 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:52:25 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/30 - 23:52:26 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/30 23:52:58 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 23:52:58 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:53:04 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:53:04 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/30 - 23:53:05 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/30 23:54:47 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:54:52 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:54:52 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/10/30 23:57:12 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/30 23:57:12 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/30 23:57:16 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/30 23:57:16 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/30 - 23:57:35 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/31 00:04:54 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/31 00:04:54 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/10/31 00:04:58 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/10/31 00:04:58 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/10/31 - 00:04:59 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/10/31 00:05:07 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/10/31 00:05:07 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/01 21:58:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:58:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:51 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:52 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:53 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:54 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:55 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:56 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:57 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:58 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 21:59:59 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:00 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:01 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:02 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:03 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:04 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:05 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:06 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:07 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:08 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:09 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:10 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:11 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:12 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:13 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:14 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:15 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:16 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:17 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:18 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:19 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:20 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:21 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:22 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:23 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:24 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:25 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:27 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:28 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:29 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:30 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:31 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:32 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:33 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:34 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:37 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:38 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:39 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:40 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:41 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:42 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:43 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:44 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:45 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:46 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:47 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:48 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:49 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:00:50 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:08:25 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:08:25 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:08:27 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/01 22:08:27 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/01 22:08:35 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:08:35 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:08:35 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:16:26 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:16:26 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:16:26 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:18:36 jj_logger.go:72: Infos: 以守护进程启动
+<JJGoLog>2020/11/01 22:18:36 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:18:36 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:28:43 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:28:43 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:28:43 jj_logger.go:64: Error, JJGo start failed: listen tcp 127.0.0.1:10086: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+<JJGoLog>2020/11/01 22:29:05 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:29:05 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/01 22:48:44 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:48:44 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:48:46 | 404 127.0.0.1 | POST | [/rest/jjgo/swagger.json?file] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 22:49:55 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:51:15 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:51:15 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:51:17 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:55:20 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:55:20 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:55:21 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 22:55:39 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:56:34 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:56:34 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:56:37 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 22:56:39 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:57:47 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:57:47 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:57:48 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:58:28 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:58:28 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:58:29 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 22:58:31 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 22:59:20 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 22:59:20 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 22:59:21 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 23:40:31 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 23:40:31 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 23:40:37 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 23:41:51 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 23:41:51 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 23:42:01 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/01 23:44:45 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/01 23:44:45 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/01 - 23:44:46 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 23:45:34 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 23:45:41 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/01 - 23:45:45 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:00:33 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:00:33 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:00:37 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:01:14 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:01:14 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:01:15 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:03:10 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:03:10 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:03:13 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:15:21 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:15:21 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:15:31 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:15:34 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:15:52 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:16:34 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:16:34 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:16:34 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:16:36 | 403 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:17:56 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:17:56 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:18:01 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:20:04 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:20:04 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/02 00:21:24 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:21:24 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:21:37 | 403 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:21:38 | 403 127.0.0.1 | GET | [   /favicon.ico] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:22:37 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:22:37 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:22:37 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:22:37 | 404 127.0.0.1 | GET | [   /favicon.ico] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 00:32:31 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 00:32:31 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 00:32:33 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:32:33 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:43 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:43 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:55 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:55 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:56 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:36:56 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:37:33 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:37:33 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:37:33 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:37:53 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:37:53 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:19 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:19 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:29 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:29 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:29 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:30 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:30 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:32 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:38:32 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:14 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:14 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:15 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:15 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:24 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:24 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:32 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:32 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:32 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:33 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:33 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:35 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:39:35 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:09 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:10 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:10 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:11 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:11 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:14 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:14 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:25 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:25 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:26 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:40:26 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:09 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:09 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:11 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:11 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:11 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:12 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:44 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:44 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:44 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:57 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:57 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:41:57 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:01 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:01 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:39 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:39 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:40 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:40 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:49 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:49 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:50 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:50 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:51 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:51 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:42:51 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:17 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:17 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:17 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:18 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:18 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:18 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:21 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:21 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:43 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:43 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:45 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:45 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:53 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:43:53 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:44:56 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:44:56 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:44:56 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:10 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:10 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:11 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:11 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:25 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:25 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:52 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:45:52 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:46:47 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:46:47 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:46:47 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:47:02 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:47:02 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:00 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:00 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:14 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:14 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:16 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:48:17 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:49:31 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:49:31 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:49:31 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:08 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:08 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:08 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:42 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:42 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:44 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:52:49 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:08 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:08 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:09 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:29 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:29 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:30 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:30 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:31 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:31 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:36 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:53:36 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:11 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:11 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:12 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:12 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:13 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:13 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:30 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:30 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:53 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:53 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:54:53 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:55:16 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:55:35 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:55:35 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:55:44 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:55:44 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:58:44 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:58:44 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:58:44 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 00:58:44 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:29 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:29 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:30 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:30 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:31 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:31 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:31 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:31 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:31 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:32 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:32 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:32 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:50 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:50 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:50 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:01:50 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:09 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:09 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:09 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:16 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:16 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:16 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:52 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:52 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:52 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:53 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:54 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:54 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:54 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:02:54 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 01:03:01 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:03:01 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 01:03:01 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:02 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:02 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:03 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:03 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:03 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:04 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:04 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:04 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:05 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:06 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:06 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:06 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:10 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:10 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:10 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:10 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:34 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:34 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:34 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:03:34 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:04:34 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:04:34 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:04:34 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:04:34 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 01:08:05 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:08:05 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/02 01:08:25 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:08:25 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 01:08:29 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:29 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:29 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:29 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:31 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:31 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:31 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:31 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:32 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:08:33 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 01:10:56 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:10:56 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 01:10:59 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:10:59 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:10:59 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:10:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:07 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:07 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:07 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:07 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:37 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:37 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:37 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:39 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:39 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:39 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:40 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:40 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:40 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:41 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:41 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:41 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:42 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:42 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:42 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:43 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:43 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:43 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:44 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:58 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:58 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:58 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:59 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:11:59 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:00 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:01 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:01 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:01 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:06 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:42 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:42 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:12:42 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:14:15 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:14:15 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:14:15 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 01:19:19 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:19:19 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 01:19:24 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:25 | 304 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:25 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:25 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:33 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:34 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:34 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:19:34 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:14 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:14 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:14 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:14 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:14 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:24 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:24 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:24 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:20:24 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:05 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:05 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:05 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:05 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:05 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:18 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:18 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:18 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:18 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:19 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:24 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:24 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:24 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:22:24 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 01:23:06 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 01:23:06 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 01:23:08 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:08 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:08 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:08 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:08 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:08 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:09 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:09 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:09 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:10 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:23:11 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:07 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:07 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:07 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:07 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:08 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:20 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:20 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:20 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:20 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:47 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:48 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:48 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:48 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:50 | 200 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:50 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui.css] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:50 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:50 | 200 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui.css.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-bundle.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 404 127.0.0.1 | GET | [/swagger/static/swagger-ui-standalone-preset.js.map] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:24:51 | 200 127.0.0.1 | GET | [/swagger/static/favicon-32x32.png] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:02 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:02 | 200 127.0.0.1 | GET | [      /jjgo.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:02 | 200 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:02 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:35 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:35 | 304 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:35 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:35 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:37 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:37 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:25:37 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 304 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:09 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:10 | 304 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:10 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:10 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:17 | 304 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:17 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:32 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:32 | 304 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:32 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:32 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:43 | 304 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:43 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:59 | 200 127.0.0.1 | GET | [              /] |Refer:  | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:59 | 304 127.0.0.1 | GET | [       /pig.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:59 | 200 127.0.0.1 | GET | [   /favicon.png] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:26:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:27:04 | 304 127.0.0.1 | GET | [       /swagger] |Refer: http://127.0.0.1:10086/ | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 01:27:04 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://127.0.0.1:10086/swagger | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 22:26:47 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 22:26:47 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 22:26:58 | 200 127.0.0.1 | GET | [/rest/jjgo/swagger.json] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:27:21 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:27:39 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 22:28:56 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 22:28:56 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 22:28:59 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 22:28:59 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 22:29:05 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:29:07 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 22:50:52 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 22:50:52 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 22:50:55 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 22:50:55 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 22:50:59 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:51:03 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: http://renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:54:07 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:54:08 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:54:09 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 22:55:36 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 22:55:36 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 22:55:43 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 22:55:43 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 22:55:46 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 22:55:48 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 22:58:27 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 22:58:27 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 23:07:03 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 23:07:03 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 23:07:13 | 200 127.0.0.1 | GET | [     /rest/jjgo] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 23:08:36 | 200 127.0.0.1 | GET | [     /rest/jjgo] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 23:09:51 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 23:09:51 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 23:09:54 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 23:09:54 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 23:09:59 | 200 127.0.0.1 | GET | [     /rest/jjgo] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 23:10:10 | 200 127.0.0.1 | GET | [     /rest/jjgo] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 23:10:22 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 23:10:25 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 23:12:11 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 23:12:11 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 23:17:15 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 23:17:15 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 23:17:17 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 23:19:02 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 23:19:02 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/02 23:21:50 jj_logger.go:72: Infos: 以正常模式运行...
+<JJGoLog>2020/11/02 23:21:50 jj_logger.go:72: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/02 - 23:21:52 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/02 - 23:21:54 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/02 23:23:35 jj_logger.go:72: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/02 23:23:35 jj_logger.go:64: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/04 00:28:02 jj_logger.go:74: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/04 00:28:02 jj_logger.go:74: Infos: 以正常模式运行...
+<JJGoLog>2020/11/04 00:28:02 jj_logger.go:74: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/04 00:28:10 jj_logger.go:74: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/04 00:28:10 jj_logger.go:66: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 22:30:30 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 22:30:30 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 22:30:30 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 22:48:41 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 22:48:41 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 22:48:46 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 22:48:46 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 22:48:46 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 22:48:55 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:49:15 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 22:50:54 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 22:50:54 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 22:50:59 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 22:50:59 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 22:50:59 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 22:51:01 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:51:06 | 403 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:51:30 | 200 127.0.0.1 | GET | [   /rest/jjmail] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:52:01 | 404 127.0.0.1 | GET | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 22:52:23 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 22:54:06 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 22:54:06 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 22:54:06 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 22:54:10 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 22:54:52 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 22:54:52 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 22:54:52 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 22:54:54 | 500 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:56:06 | 500 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/05 - 22:56:08 | 500 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 23:07:42 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 23:07:42 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 23:07:47 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:07:47 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:07:47 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:07:54 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 23:08:34 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:08:34 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:08:34 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:08:35 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 23:09:12 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:09:12 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:09:12 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:09:14 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 23:10:56 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:10:56 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:10:56 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:10:59 jj_logger.go:68: Error, 读取请求体失败: EOF
+<JJGoLog>2020/11/05 23:11:53 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:11:53 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:11:53 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:11:58 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:16:13 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:16:13 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:16:13 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:16:15 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:19:15 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:19:15 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:19:15 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:19:16 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:19:49 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:19:49 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:19:49 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:19:53 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:36:06 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:36:06 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:36:06 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:36:08 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:39:11 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:39:11 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:39:11 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:39:13 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:44:15 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:44:15 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:44:15 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:44:18 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:46:32 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:46:32 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:46:32 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/05 23:46:36 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/05 23:47:19 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:47:19 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:47:19 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 23:47:22 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 23:48:34 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 23:48:38 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:48:38 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:48:38 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 23:48:40 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 23:50:57 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 23:50:57 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 23:51:01 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:51:01 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:51:01 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 23:51:05 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 23:52:32 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 23:52:32 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 23:52:36 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:52:36 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:52:36 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 23:52:38 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/05 23:54:05 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/05 23:54:05 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/05 23:54:09 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/05 23:54:09 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/05 23:54:09 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/05 - 23:54:16 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:34:50 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:34:50 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:34:56 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:34:56 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:34:56 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 00:34:59 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:36:00 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:36:00 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:36:05 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:36:05 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:36:05 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 00:36:06 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 00:36:08 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:39:16 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:39:16 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:39:21 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:39:21 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:39:21 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 00:39:24 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:41:09 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:41:09 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:41:13 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:41:14 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:41:14 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:41:15 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:41:58 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:41:58 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:41:58 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 00:41:59 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:42:10 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:42:10 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:43:05 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:43:05 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:43:05 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:43:06 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:46:04 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:46:04 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:46:04 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:46:05 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:48:14 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:48:14 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:48:14 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:48:16 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:50:13 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:50:13 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:50:13 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:50:15 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:51:50 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:51:50 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:51:50 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:51:51 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:52:39 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:52:39 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:52:39 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:52:41 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:53:11 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:53:11 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:53:11 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:53:12 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+<JJGoLog>2020/11/06 00:57:32 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 00:57:32 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 00:57:32 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 00:57:35 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+[JJGo] 2020/11/06 - 00:57:35 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:57:44 jj_logger.go:68: Error, 读取请求体失败: EOF
+[JJGo] 2020/11/06 - 00:57:44 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:57:48 jj_logger.go:68: Error, 读取请求体失败: EOF
+[JJGo] 2020/11/06 - 00:57:48 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 00:59:36 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 00:59:36 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 00:59:40 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:00:03 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:00:03 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:00:03 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 01:00:04 jj_logger.go:68: Error, 读取请求体失败: EOF
+[JJGo] 2020/11/06 - 01:00:04 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:00:11 jj_logger.go:68: Error, 读取请求体失败: EOF
+[JJGo] 2020/11/06 - 01:00:11 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:00:20 jj_logger.go:68: Error, 执行jjmail脚本失败, blog: exit status 1
+[JJGo] 2020/11/06 - 01:00:20 | 200 127.0.0.1 | PUT | [/rest/jjmail/sub_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:21:30 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:21:30 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 01:21:54 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:22:14 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:22:14 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:22:14 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 01:22:14 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:22:14 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 01:22:15 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:23:25 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:23:25 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:23:25 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 01:23:26 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:23:26 jj_logger.go:68: Error, JJGo start failed: http: Server closed
+<JJGoLog>2020/11/06 01:23:33 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:24:59 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:24:59 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:24:59 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+<JJGoLog>2020/11/06 01:25:01 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:26:36 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:26:36 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:26:36 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 01:26:44 | 404 127.0.0.1 | PUT | [   /rest/mysite] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 01:26:48 | 200 127.0.0.1 | GET | [   /rest/mysite] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 01:26:57 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:43:01 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:43:06 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:43:06 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:43:06 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 01:43:07 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:44:29 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:44:34 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:44:34 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:44:34 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 01:44:35 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:44:40 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 01:45:05 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 01:45:05 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 01:45:05 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 01:45:06 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 01:45:08 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 01:45:11 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 21:08:07 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 21:08:07 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 21:08:07 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 21:08:10 | 200 127.0.0.1 | GET | [/rest/mysite/get_blog] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:08:25 | 500 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:09:04 | 500 127.0.0.1 | GET | [/rest/mysite/get_problems] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:10:01 | 200 127.0.0.1 | GET | [/rest/mysite/get_post] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:10:09 | 500 127.0.0.1 | GET | [/rest/mysite/get_post?url=pin] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 21:25:47 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 21:25:52 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 21:25:52 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 21:25:52 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 21:25:53 | 200 127.0.0.1 | GET | [/rest/mysite/get_post?url=pin] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:25:58 | 200 127.0.0.1 | GET | [/rest/mysite/get_post?url=] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:26:07 | 200 127.0.0.1 | GET | [/rest/mysite/get_problems] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:26:17 | 200 127.0.0.1 | GET | [/rest/mysite/get_thoughts] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 21:26:21 jj_logger.go:68: Error, 获取访问量数据库失败: no such table: viewsCount
+[JJGo] 2020/11/06 - 21:26:21 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:26:46 | 200 127.0.0.1 | GET | [/rest/mysite/get_message] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:26:55 | 200 127.0.0.1 | GET | [/rest/mysite/get_music] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 21:26:59 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 21:27:03 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 21:27:03 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 21:27:03 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 21:27:08 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 21:28:02 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 21:28:07 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 21:28:07 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 21:28:07 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 21:28:07 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/06 - 21:28:09 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/06 21:54:24 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/06 21:54:29 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/06 21:54:29 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/06 21:54:29 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/06 - 21:54:40 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:16:10 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/07 14:16:15 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/07 14:16:15 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/07 14:16:15 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/07 - 14:16:17 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:16:27 | 200 127.0.0.1 | GET | [/rest/mysite/get_views] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:21:20 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/07 14:21:46 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/07 14:21:46 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/07 14:21:46 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/07 - 14:21:53 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:22:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:23:02 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/07 14:23:06 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/07 14:23:06 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/07 14:23:06 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/07 - 14:23:08 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:31:46 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/07 14:31:51 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/07 14:31:51 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/07 14:31:51 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/07 - 14:31:54 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:31:57 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:31:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:32:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:32:02 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:35:33 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.
+<JJGoLog>2020/11/07 14:35:50 jj_logger.go:76: Infos: 配置文件读取完毕
+<JJGoLog>2020/11/07 14:35:50 jj_logger.go:76: Infos: 以正常模式运行...
+<JJGoLog>2020/11/07 14:35:50 jj_logger.go:76: Infos: JJGo running PID was written into ./logs/jjgo.pid
+[JJGo] 2020/11/07 - 14:35:51 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:53 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:54 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:55 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:55 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:55 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:57 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:58 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:58 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:35:59 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:00 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:01 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:03 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:03 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:36:04 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:39:47 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+[JJGo] 2020/11/07 - 14:39:49 | 200 127.0.0.1 | GET | [/rest/jjgo/status] |Refer: renj.io | HOST: 127.0.0.1:10086 | ERRS:
+<JJGoLog>2020/11/07 14:40:16 jj_logger.go:76: Infos: Server will wait for requests to complete before Exit.

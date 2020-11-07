@@ -1,0 +1,58 @@
+/*
+App: jjgo
+Author: Landers
+Copyright: Landers1037 renj.io
+Github: https://github.com/landers1037
+
+注册信号量
+*/
+package engine
+
+import (
+	"context"
+	"net/http"
+	"os"
+	"os/signal"
+	"syscall"
+
+	"jjgo/src/config"
+	"jjgo/src/logger"
+)
+
+func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
+	// 监听信号量
+	// ONLY WORK ON LINUX
+	signal.Notify(sigChan, syscall.SIGINT, syscall.SIGUSR1, syscall.SIGTERM)
+	// select判断
+	// kill (no param) default send syscall.SIGTERM
+	// kill -1 SIGHUP
+	// kill -2 is syscall.SIGINT
+	// kill -9 is syscall. SIGKILL but can"t be catch, so don't need add it
+	// kill -10 -12 SIGUSR1 SIGUSR2
+	for sig := range sigChan {
+		switch sig {
+		case syscall.SIGINT :
+			// 停止
+			if err := s.Shutdown(context.Background()); err != nil {
+				logger.JJGoLogger.Error("JJGo Server Shutdown...", err)
+				logger.JJGoLogger.Info("Server will wait for requests to complete before Exit.")
+			}
+			// catching ctx.Done(). timeout of 5 seconds.
+			logger.JJGoLogger.Info("Server will wait for requests to complete before Exit.")
+			os.Exit(0)
+
+		case syscall.SIGTERM:
+			// 强制关闭
+			logger.JJGoLogger.Info("Server has been Terminated.")
+
+		case syscall.SIGUSR1:
+			// 先引入所有的json文件
+			// 当前的json配置只有白名单和黑名单, 更新日志, 版本号
+			config.ReadWhite()
+			config.ReadBlack()
+			config.InitChangeLog()
+			config.InitJJGoVersion()
+			logger.JJGoLogger.Info("Server has reloaded all JSON data.")
+		}
+	}
+}
