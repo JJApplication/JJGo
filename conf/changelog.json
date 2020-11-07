@@ -31,7 +31,12 @@
   },
   {
     "version": "2.0",
-    "build": "2020-11-10",
+    "build": "2020-11-7",
     "description": "数据库支持，新增API接口计数中间件，支持连接mysite数据库"
+  },
+  {
+    "version": "2.1",
+    "build": "2020-11-10",
+    "description": "修复可能导致的数组越界，修正python脚本错误"
   }
 ]

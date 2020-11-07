@@ -22,7 +22,6 @@ import (
 	"jjgo/src/config"
 	"jjgo/src/jjgorm"
 	"jjgo/src/logger"
-	"jjgo/src/middleware"
 	"jjgo/src/model"
 	"jjgo/src/model/database"
 	"jjgo/src/model/entity"
@@ -41,17 +40,18 @@ func JJMail(r *gin.Engine) {
 		)
 	}
 	ApiJJMail = r.Group("/rest/jjmail")
-	ApiJJMail.Use(middleware.JJAuth())
 	{
 		ApiJJMail.GET("", info)
 		ApiJJMail.POST("/status", jjmailStatus)
 		ApiJJMail.PUT("/sub_blog", jjmailSubBlog)
 		ApiJJMail.DELETE("/unsub_blog", jjmailUnsubBlog)
+		ApiJJMail.GET("/unsub_blog", jjmailUnsubBlog)
 		// 用于发送指定消息
 		ApiJJMail.POST("/sendmsg", jjmailSend)
 		ApiJJMail.PUT("/reply", jjmailReply)
 		ApiJJMail.PUT("/sub_mgek", jjmailSubMgek)
 		ApiJJMail.DELETE("/unsub_mgek", jjmailUnsubMgek)
+		ApiJJMail.GET("/unsub_mgek", jjmailUnsubMgek)
 	}
 }
 
@@ -86,15 +86,14 @@ func jjmailSubBlog(c *gin.Context) {
 	db.Connect(config.JJGoConf.DBMysite)
 	var posts []database.Blog
 	err = db.FindAll(&posts).Error
-	res, _ := json.Marshal(posts[len(posts)-5:])
-	if err != nil {
+	if err != nil  || len(posts) <= 5 {
 		logger.JJGoLogger.Error("数据库读取失败", err)
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 		return
 	}
 	defer db.Close()
-
+	res, _ := json.Marshal(posts[len(posts)-5:])
 	address := body.Address
 	cwd, _ := os.Getwd()
 	lib_python := path.Join(cwd, "script", "python", "lib_jjmail.py")
@@ -110,7 +109,6 @@ func jjmailSubBlog(c *gin.Context) {
 		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
 			model.OK)
 	}else {
-		fmt.Println("sb")
 		logger.JJGoLogger.Error("执行jjmail脚本结果, blog", string(opt[:]))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
@@ -120,6 +118,12 @@ func jjmailSubBlog(c *gin.Context) {
 // blog取消订阅
 func jjmailUnsubBlog(c *gin.Context) {
 	// 获取参数中的邮箱地址
+	if c.Request.Method == "GET" {
+		address := c.Query("address")
+		util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+			address)
+		return
+	}
 	body := entity.JJMailAddress{}
 	err := c.BindJSON(&body)
 	if err != nil {
@@ -133,7 +137,7 @@ func jjmailUnsubBlog(c *gin.Context) {
 	// 从redis中删除邮箱
 	logger.JJGoLogger.Info(fmt.Sprintf("blog邮件取消订阅: %s", address))
 	util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
-		model.OK)
+		body)
 	return
 }
 
@@ -204,6 +208,12 @@ func jjmailSubMgek(c *gin.Context) {
 // mgek取消订阅
 func jjmailUnsubMgek(c *gin.Context) {
 	// 获取参数中的邮箱地址
+	if c.Request.Method == "GET" {
+		address := c.Query("address")
+		util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+			address)
+		return
+	}
 	body := entity.JJMailAddress{}
 	err := c.BindJSON(&body)
 	if err != nil {

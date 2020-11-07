@@ -53,6 +53,8 @@ function generate_pkg()
   mv ./jjlog ./pkg_jjgo
 
   cp -r ./conf ./pkg_jjgo
+  cp -r ./script ./pkg_jjgo
+  cp -r ./lib ./pkg_jjgo
   cp -r ./static ./pkg_jjgo
   cp -r ./swagger ./pkg_jjgo
   cp app_define.json ./pkg_jjgo
