@@ -82,6 +82,7 @@ function clean_cache()
   echo "清理缓存文件..."
   if [ -d "./pkg_jjgo" ];then
     rm -rf ./pkg_jjgo
+    echo "清理完毕"
   fi
 }
 

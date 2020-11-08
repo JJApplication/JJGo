@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="google" content="notranslate" />
+    <meta name="apple-mobile-web-app-title" content="JJGo API">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="x5-page-mode" content="app">
+    <meta name="renderer" content="webkit">
+    <meta name="browsermode" content="application">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <title>JJGo更新日志</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.20.0/dist/axios.min.js" integrity="sha256-KyY5SqyBmXeM0zfYBGU1tuqcstxpjkECApypY+CA4Z8=" crossorigin="anonymous"></script>
+</head>
+<style>
+    *{margin: 0;padding: 0}
+    body{text-align: center;font-family: sans-serif}
+    h1{font-size: 36px;margin-top: 10px;margin-bottom: 15px}
+    #version{margin-bottom: 15px}
+</style>
+<body>
+    <div style="padding: 20px">
+        <h1>JJGo 更新日志</h1>
+        <div id="version">
+            <h3>最新版</h3>
+            <p style="color: #666666">版本号: <span id="v-version"></span></p>
+            <p style="color: #666666">构建日期: <span id="v-build"></span></p>
+            <p style="color: #666666">JJGo版本: <span id="v-jjgo"></span></p>
+        </div>
+        <div id="logs">
+
+        </div>
+    </div>
+<script>
+    function ver(){
+        let v_version = document.getElementById("v-version");
+        let v_build = document.getElementById("v-build");
+        let v_jjgo = document.getElementById("v-jjgo");
+        axios.get("/rest/jjgo/version").then(res=>{
+            let data = res.data.data;
+            if (data){
+                v_version.innerText = data.version;
+                v_build.innerText = data.build_date;
+                v_jjgo.innerText = data.api_server;
+            }else {
+
+            }
+        });
+    }
+    window.onload = function () {
+        ver();
+        let logs = document.getElementById("logs");
+
+        axios.get("/rest/jjgo/changelog").then(res=>{
+            let data = res.data.data;
+            data = JSON.stringify(data, null, 4);
+            logs.innerHTML = ("<pre style='white-space: pre-line;word-break: break-all;text-align: left;max-width: 800px;margin: 0 auto'><code>" + data + "</code></pre>");
+        })
+    }
+</script>
+</body>
+</html>
