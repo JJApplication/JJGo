@@ -60,7 +60,7 @@
         axios.get("/rest/jjgo/changelog").then(res=>{
             let data = res.data.data;
             data = JSON.stringify(data, null, 4);
-            logs.innerHTML = ("<pre style='white-space: pre-line;word-break: break-all;text-align: left;max-width: 800px;margin: 0 auto'><code>" + data + "</code></pre>");
+            logs.innerHTML = ("<pre style='white-space: pre-wrap;word-break: break-all;text-align: left;max-width: 800px;margin: 0 auto'><code>" + data + "</code></pre>");
         })
     }
 </script>

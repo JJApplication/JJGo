@@ -38,5 +38,10 @@
     "version": "2.1",
     "build": "2020-11-10",
     "description": "修复可能导致的数组越界，修正python脚本错误"
+  },
+  {
+    "version": "2.2",
+    "build": "2020-11-11",
+    "description": "分路由加载认证中间件"
   }
 ]

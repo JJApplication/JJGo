@@ -22,6 +22,7 @@ import (
 	"jjgo/src/config"
 	"jjgo/src/jjgorm"
 	"jjgo/src/logger"
+	"jjgo/src/middleware"
 	"jjgo/src/model"
 	"jjgo/src/model/database"
 	"jjgo/src/model/entity"
@@ -43,13 +44,13 @@ func JJMail(r *gin.Engine) {
 	{
 		ApiJJMail.GET("", info)
 		ApiJJMail.POST("/status", jjmailStatus)
-		ApiJJMail.PUT("/sub_blog", jjmailSubBlog)
+		ApiJJMail.PUT("/sub_blog", jjmailSubBlog, middleware.JJAuth())
 		ApiJJMail.DELETE("/unsub_blog", jjmailUnsubBlog)
 		ApiJJMail.GET("/unsub_blog", jjmailUnsubBlog)
 		// 用于发送指定消息
 		ApiJJMail.POST("/sendmsg", jjmailSend)
 		ApiJJMail.PUT("/reply", jjmailReply)
-		ApiJJMail.PUT("/sub_mgek", jjmailSubMgek)
+		ApiJJMail.PUT("/sub_mgek", jjmailSubMgek, middleware.JJAuth())
 		ApiJJMail.DELETE("/unsub_mgek", jjmailUnsubMgek)
 		ApiJJMail.GET("/unsub_mgek", jjmailUnsubMgek)
 	}
