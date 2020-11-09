@@ -101,16 +101,19 @@ func jjmailSubBlog(c *gin.Context) {
 	opt, err := exec.Command("python3", lib_python, address, "blog", string(res[:])).Output()
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, blog", err)
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
 			model.OK)
 	}else {
 		logger.JJGoLogger.Error("执行jjmail脚本结果, blog", string(opt[:]))
+		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 	}
@@ -160,15 +163,18 @@ func jjmailReply(c *gin.Context) {
 	opt, err := exec.Command("python3", lib_python, address, "reply").Output()
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, reply", err)
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
 			model.OK)
 	}else {
+		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 	}
@@ -192,15 +198,18 @@ func jjmailSubMgek(c *gin.Context) {
 	opt, err := exec.Command("python3", lib_python, address, "mgek").Output()
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, mgek", err)
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
+		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
 			model.OK)
 	}else {
+		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
 			model.BAD)
 	}
