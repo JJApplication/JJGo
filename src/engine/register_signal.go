@@ -32,6 +32,10 @@ func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
 	for sig := range sigChan {
 		switch sig {
 		case syscall.SIGINT :
+			// 保证数据库释放
+			logger.JJGoLogger.Info("数据库句柄已关闭")
+			JJGorm.Close()
+
 			// 停止
 			if err := s.Shutdown(context.Background()); err != nil {
 				logger.JJGoLogger.Error("JJGo Server Shutdown...", err)

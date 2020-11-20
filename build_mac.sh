@@ -3,13 +3,12 @@
 function build_jjgo()
 {
   echo "检查GOPATH"
-  echo GOPATH=$GOPATH
-  echo "检查cgo编译环境"
-  echo CGO_ENABLED="$(go env | grep CGO_ENABLED)"
-  echo "编译环境`go env |grep GOOS` `go env |grep GOARCH`"
+  echo $GOPATH
   echo "开始编译JJGo程序"
   export GOOS=linux
   export ARCH=amd64
+  # 针对macos的环境配置
+  export GOPATH=/Users/landers/code/go
   go build -ldflags "-s -w" ./src/jjgo.go
   if [ ! -f "./jjgo" ];then
     echo "jjgo程序编译失败"
@@ -47,7 +46,7 @@ function generate_pkg()
     echo "目录不存在即将创建"
     mkdir ./pkg_jjgo
   else
-    mkdir ./pkg_jjgo || echo "目录已存在"
+    echo "目录已存在"
   fi
 
   chmod +x ./jjgo
@@ -73,11 +72,7 @@ function generate_pkg()
   mv jjgo_build.log ./pkg_jjgo
   # 解决可能出现的文件夹权限问题
   echo "移动程序到打包路径"
-  echo "重写文件权限"
-  chmod -R 666 ./pkg_jjgo/logs
-  chmod -R 666 ./pkg_jjgo/conf
-  chmod -R 644 ./pkg_jjgo/swagger
-  chmod -R 644 ./pkg_jjgo/static
+  echo "文件权限默认为Mac用户 请在Linux上修改用户组"
 
   echo "开始打包"
   zip -r jjgo.zip ./pkg_jjgo
@@ -86,19 +81,14 @@ function generate_pkg()
 
 function clean_cache()
 {
-  echo "清理缓存文件..."
-  if [ -d "./pkg_jjgo" ];then
-    rm -rf ./pkg_jjgo
-    echo "清理完毕"
-  fi
+  echo "因为权限问题，需要手动清理缓存文件..."
 }
 
 function build_log()
 {
   echo "生成build日志"
   touch jjgo_build.log
-  date=$(date)
-  echo "build date: ${date}" > jjgo_build.log
+  echo "build date: $(date)" > jjgo_build.log
 }
 
 
@@ -107,6 +97,6 @@ build_jjcli
 build_jjlog
 build_log
 generate_pkg
-# clean_cache
+clean_cache
 
 exit

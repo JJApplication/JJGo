@@ -43,5 +43,10 @@
     "version": "2.2",
     "build": "2020-11-11",
     "description": "分路由加载认证中间件"
+  },
+  {
+    "version": "2.3",
+    "build": "2020-11-21",
+    "description": "修复数据库句柄关闭异常"
   }
 ]

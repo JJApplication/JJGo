@@ -39,6 +39,13 @@ func (d *JJGorm) Connect(db string) *gorm.DB {
 	return dbc
 }
 
+func (d *JJGorm) IsOpen() bool {
+	// 返回当前链接的数据库实例 如果该实例不存在则返回空
+	if d.dbc.DB() != nil {
+		return true
+	}
+	return false
+}
 func (d *JJGorm) Close() *gorm.DB {
 	_ = d.dbc.Close()
 	return d.dbc

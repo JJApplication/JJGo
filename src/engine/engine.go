@@ -52,8 +52,7 @@ func JJGo() JJGoEngine {
 	// 注册在路由前 保证路由里可以使用数据库
 	JJGorm = LoadDB()
 	JJGorm.Connect(config.JJGoConf.DBJJGo)
-	// 保证数据库正常关闭
-	defer JJGorm.Close()
+	// 在停止时保证数据库正常关闭
 	GINConf()
 	JJGoConf()
 	handler = gin.New()
@@ -126,7 +125,6 @@ func (jjgo *JJGoEngine) RunDaemon() {
 	cmd.SysProcAttr = &syscall.SysProcAttr{
 		Setsid: true,
 	}
-
 
 	if err := cmd.Start();err != nil {
 		logger.JJGoLogger.Error("守护进程exec启动失败", err)
