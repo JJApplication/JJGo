@@ -37,7 +37,7 @@ func JJAuth() gin.HandlerFunc {
 					"forbidden to access, Token required",
 					"403 Forbidden",
 				)
-				c.Abort()
+				c.AbortWithStatus(model.HTTP_FORBIDDEN)
 				return
 			}
 		case "token_params":
@@ -51,7 +51,7 @@ func JJAuth() gin.HandlerFunc {
 					"forbidden to access, Token required",
 					"403 Forbidden",
 				)
-				c.Abort()
+				c.AbortWithStatus(model.HTTP_FORBIDDEN)
 				return
 			}
 		default:
@@ -65,7 +65,7 @@ func JJAuth() gin.HandlerFunc {
 					"forbidden to access, Token required",
 					"403 Forbidden",
 				)
-				c.Abort()
+				c.AbortWithStatus(model.HTTP_FORBIDDEN)
 				return
 			}
 		}

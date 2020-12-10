@@ -14,6 +14,8 @@ func JJGoIndex(r *gin.Engine) {
 	index := r.Group("/")
 
 	index.StaticFile("", "./static/index.html")
+	index.StaticFile("docs", "./static/docs.html")
+	index.StaticFile("changelogs", "./static/changelogs.html")
 	index.StaticFile("/favicon.png", "./static/favicon.png")
 	index.StaticFile("/apple-icon.png", "./static/apple-icon.png")
 	index.StaticFile("/jjgo.png", "./static/jjgo.png")

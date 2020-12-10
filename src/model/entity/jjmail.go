@@ -25,3 +25,10 @@ type JJMailSub struct {
 type JJMailAddress struct {
 	Address string `json:"address"`
 }
+
+// axios传递的data信息
+type JJMailAddressData struct {
+	Address string `json:"address"`
+	// data是传入的数据json字符串
+	Data    string `json:"data"`
+}

@@ -26,7 +26,7 @@ func (*console) FgRed(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.Red.Println(format)
 	}else {
-		color.Red.Println(fmt.Sprintf(format, a))
+		color.Red.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -34,7 +34,7 @@ func (*console) FgGreen(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.Green.Println(format)
 	}else {
-		color.Green.Println(fmt.Sprintf(format, a))
+		color.Green.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -42,7 +42,7 @@ func (*console) FgCyan(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.Cyan.Println(format)
 	}else {
-		color.Cyan.Println(fmt.Sprintf(format, a))
+		color.Cyan.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -50,7 +50,7 @@ func (*console) FgYellow(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.Yellow.Println(format)
 	}else {
-		color.Yellow.Println(fmt.Sprintf(format, a))
+		color.Yellow.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -58,7 +58,7 @@ func (*console) BgRed(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.BgRed.Println(format)
 	}else {
-		color.BgRed.Println(fmt.Sprintf(format, a))
+		color.BgRed.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -66,7 +66,7 @@ func (*console) BgGreen(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.BgGreen.Println(format)
 	}else {
-		color.BgGreen.Println(fmt.Sprintf(format, a))
+		color.BgGreen.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -74,7 +74,7 @@ func (*console) BgCyan(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.BgCyan.Println(format)
 	}else {
-		color.BgCyan.Println(fmt.Sprintf(format, a))
+		color.BgCyan.Println(fmt.Sprintf(format, a...))
 	}
 }
 
@@ -82,6 +82,6 @@ func (*console) BgYellow(format string, a ...interface{}) {
 	if len(a) <= 0 {
 		color.BgYellow.Println(format)
 	}else {
-		color.BgYellow.Println(fmt.Sprintf(format, a))
+		color.BgYellow.Println(fmt.Sprintf(format, a...))
 	}
 }

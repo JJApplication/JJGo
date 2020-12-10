@@ -48,7 +48,7 @@ func JJMail(r *gin.Engine) {
 		ApiJJMail.DELETE("/unsub_blog", jjmailUnsubBlog)
 		ApiJJMail.GET("/unsub_blog", jjmailUnsubBlog)
 		// 用于发送指定消息
-		ApiJJMail.POST("/sendmsg", jjmailSend)
+		ApiJJMail.POST("/send", jjmailSend, middleware.JJAuth())
 		ApiJJMail.PUT("/reply", jjmailReply)
 		ApiJJMail.PUT("/sub_mgek", jjmailSubMgek, middleware.JJAuth())
 		ApiJJMail.DELETE("/unsub_mgek", jjmailUnsubMgek)
@@ -245,7 +245,7 @@ func jjmailUnsubMgek(c *gin.Context) {
 // 考虑安全性 暂时不实现
 func jjmailSend(c *gin.Context) {
 	// 获取参数中的邮箱地址
-	body := entity.JJMailAddress{}
+	body := entity.JJMailAddressData{}
 	err := c.BindJSON(&body)
 	if err != nil {
 		// body读取失败
@@ -255,9 +255,10 @@ func jjmailSend(c *gin.Context) {
 		return
 	}
 	address := body.Address
+	data := body.Data
 	cwd, _ := os.Getwd()
 	lib_python := path.Join(cwd, "script", "python", "lib_jjmail.py")
-	opt, err := exec.Command("python3", lib_python, address, "send").Output()
+	opt, err := exec.Command("python3", lib_python, address, "send", data).Output()
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, send", err)
 		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",

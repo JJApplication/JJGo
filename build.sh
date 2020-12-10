@@ -1,12 +1,25 @@
 #!/usr/bin/env bash
 
+# 默认不会打包因为zip程序不一定会存在
+# 默认不会清理掉缓存 使用--clean清除
+
+function is_root()
+{
+  root=$(id -u)
+  if [ ! "$root" -eq 0 ]
+  then
+    echo "请在root用户下运行此脚本构建"
+    exit 1
+  fi
+}
+
 function build_jjgo()
 {
   echo "检查GOPATH"
-  echo GOPATH=$GOPATH
+  echo GOPATH="$GOPATH"
   echo "检查cgo编译环境"
   echo CGO_ENABLED="$(go env | grep CGO_ENABLED)"
-  echo "编译环境`go env |grep GOOS` `go env |grep GOARCH`"
+  echo "编译环境$(go env |grep GOOS) $(go env |grep GOARCH)"
   echo "开始编译JJGo程序"
   export GOOS=linux
   export ARCH=amd64
@@ -15,6 +28,7 @@ function build_jjgo()
     echo "jjgo程序编译失败"
   else
     echo "jjgo编译成功"
+    sha
   fi
 }
 
@@ -55,9 +69,9 @@ function generate_pkg()
   chmod +x ./jjlog
 
   echo "修改程序执行权限"
-  mv ./jjgo ./pkg_jjgo
-  mv ./jjcli ./pkg_jjgo
-  mv ./jjlog ./pkg_jjgo
+  cp ./jjgo ./pkg_jjgo
+  cp ./jjcli ./pkg_jjgo
+  cp ./jjlog ./pkg_jjgo
 
   cp -r ./conf ./pkg_jjgo
   cp -r ./script ./pkg_jjgo
@@ -70,26 +84,36 @@ function generate_pkg()
   touch ./pkg_jjgo/logs/jjgo.log
   touch ./pkg_jjgo/logs/jjgo.pid
 
-  mv jjgo_build.log ./pkg_jjgo
+  cp jjgo_build.log ./pkg_jjgo
+  cp jjgo.sha256 ./pkg_jjgo
   # 解决可能出现的文件夹权限问题
   echo "移动程序到打包路径"
-  echo "重写文件权限"
-  chmod -R 666 ./pkg_jjgo/logs
-  chmod -R 666 ./pkg_jjgo/conf
-  chmod -R 644 ./pkg_jjgo/swagger
-  chmod -R 644 ./pkg_jjgo/static
+}
 
-  echo "开始打包"
-  zip -r jjgo.zip ./pkg_jjgo
-  echo "打包完毕"
+function zip_pkg()
+{
+  if [ -n "$1" ]
+  then
+    echo "开始打包"
+    zip -r jjgo.zip ./pkg_jjgo
+    echo "打包完毕"
+  fi
 }
 
 function clean_cache()
 {
-  echo "清理缓存文件..."
-  if [ -d "./pkg_jjgo" ];then
-    rm -rf ./pkg_jjgo
-    echo "清理完毕"
+  if [ -n "$1" ]
+  then
+    echo "清理缓存文件..."
+    if [ -d "./pkg_jjgo" ];then
+      rm -rf ./pkg_jjgo
+      rm -f ./jjgo
+      rm -f ./jjcli
+      rm -f ./jjlog
+      rm -f ./jjgo.sha256
+      rm -f ./jjgo_build.log
+      echo "清理完毕"
+    fi
   fi
 }
 
@@ -101,12 +125,23 @@ function build_log()
   echo "build date: ${date}" > jjgo_build.log
 }
 
+function sha()
+{
+  echo "生成jjgo sha256校验码"
+  sha256sum ./jjgo > jjgo.sha256
+}
 
+echo "使用--zip开启打包"
+echo "打包时使用--clean开启清理缓存"
+
+umask 022
+is_root
 build_jjgo
 build_jjcli
 build_jjlog
 build_log
 generate_pkg
-# clean_cache
+zip_pkg "$1"
+clean_cache "$2"
 
 exit

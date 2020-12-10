@@ -38,6 +38,7 @@ func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
 
 			// 停止
 			if err := s.Shutdown(context.Background()); err != nil {
+				con.FgGreen("JJGo服务关闭完成")
 				logger.JJGoLogger.Error("JJGo Server Shutdown...", err)
 				logger.JJGoLogger.Info("Server will wait for requests to complete before Exit.")
 			}
@@ -47,11 +48,13 @@ func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
 
 		case syscall.SIGTERM:
 			// 强制关闭
+			con.FgGreen("JJGo服务强制关闭完成")
 			logger.JJGoLogger.Info("Server has been Terminated.")
 
 		case syscall.SIGUSR1:
 			// 先引入所有的json文件
 			// 当前的json配置只有白名单和黑名单, 更新日志, 版本号
+			con.FgGreen("JJGo服务重载完成")
 			config.ReadWhite()
 			config.ReadBlack()
 			config.InitChangeLog()

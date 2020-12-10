@@ -59,8 +59,13 @@
 
         axios.get("/rest/jjgo/changelog").then(res=>{
             let data = res.data.data;
-            data = JSON.stringify(data, null, 4);
-            logs.innerHTML = ("<pre style='white-space: pre-wrap;word-break: break-all;text-align: left;max-width: 800px;margin: 0 auto'><code>" + data + "</code></pre>");
+            data = JSON.stringify(data, null, 2);
+            data = data.replace(/\[/g, "").replace(/]/g, "").replace(/{/g, "").replace(/}/g, "").replace(/,/g, "")
+            data = data.replace(/"/g, "")
+            data = data.replace(/version/g, "<span style='color: #378de5;font-size: 18px'>版本号</span>")
+            data = data.replace(/build/g, "<span style='color: darkgreen;font-size: 18px'>构建日期</span>")
+            data = data.replace(/description/g, "<span style='color: coral;font-size: 18px'>更新说明</span>")
+            logs.innerHTML = ("<div style='white-space: pre-wrap;word-break: break-all;text-align: left;max-width: 800px;margin: 0 auto'>" + data + "</div>");
         })
     }
 </script>

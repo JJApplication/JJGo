@@ -22,7 +22,7 @@ from jjmail.task1 import send_blog_mail
 from jjmail.task2 import send_reply_mail
 from jjmail.task3 import send_code_mail
 from jjmail.task4 import send_mgek_mail
-
+from jjmail.task5 import send_msg_mail
 
 def lib_blog_mail(mail_address, posts):
     res = json.loads(posts, encoding="utf-8")
@@ -42,6 +42,10 @@ def lib_mgek_mail(mail_address):
                                countdown=30,
                                retry=False)
 
+def lib_send_mail(mail_address, data):
+    send_msg_mail.apply_async([mail_address, data],
+                               countdown=30,
+                               retry=False)
 
 if __name__ == '__main__':
     args = sys.argv
@@ -59,5 +63,8 @@ if __name__ == '__main__':
             lib_mgek_mail(address)
         elif service == "reply":
             lib_reply_mail(address)
+        elif service == "send":
+            data = args[3]
+            lib_send_mail(address, data)
         else:
             print("wrong service")

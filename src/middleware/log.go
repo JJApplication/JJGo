@@ -66,7 +66,7 @@ func JJGoLog() gin.HandlerFunc {
 
 
 var defaultLogFormatter = func(param model.LogFormatterParams) string {
-	return fmt.Sprintf("[JJGo] %v | %v %s | %v | [%15s] |Refer: %s | HOST: %s | ERRS:%s\n",
+	return fmt.Sprintf("[JJGo] %v | %v %s | %v | [%s] |Refer: %s | HOST: %s | ERRS:%s\n",
 		param.TimeStamp.Format("2006/01/02 - 15:04:05"),
 		param.StatusCode,
 		param.ClientIP,

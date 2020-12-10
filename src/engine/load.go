@@ -34,6 +34,7 @@ func loadRouter(handler *gin.Engine) {
 func loadMiddleware(handler *gin.Engine) {
 	handler.Use(middleware.JJGoLog())
 	handler.Use(gin.Recovery())
+	handler.Use(middleware.TypeAllowed())
 	handler.Use(middleware.ResponseTime())
 	handler.Use(middleware.APICount())
 	handler.Use(middleware.Cors())

@@ -48,5 +48,10 @@
     "version": "2.3",
     "build": "2020-11-21",
     "description": "修复数据库句柄关闭异常"
+  },
+  {
+    "version": "2.5",
+    "build": "2020-12-10",
+    "description": "优化jjgo运行命令行参数"
   }
 ]

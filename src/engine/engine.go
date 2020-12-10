@@ -67,6 +67,7 @@ func JJGo() JJGoEngine {
 
 // http server运行jjgo
 func (jjgo *JJGoEngine) Run() {
+	con.FgGreen("以正常模式启动JJGo服务")
 	logger.JJGoLogger.Info("以正常模式运行...")
 	s := &http.Server{
 		Addr: fmt.Sprintf("127.0.0.1:%d",config.JJGoConf.Port),
@@ -82,16 +83,21 @@ func (jjgo *JJGoEngine) Run() {
 	go RegisterSignal(s, sigChan)
 	err := s.ListenAndServe()
 	if err != nil {
+		con.FgRed("以正常模式启动JJGo服务失败")
 		logger.JJGoLogger.Error("JJGo start failed", err)
 	}
 	<-sigChan
 }
 
-// 运行default
-func (jjgo *JJGoEngine) RunDefault() {
-	logger.JJGoLogger.Info("以默认模式运行...")
-	err := jjgo.engine.Run(fmt.Sprintf(":%v", config.JJGoConf.Port))
+// 运行测试模式8080
+func (jjgo *JJGoEngine) RunTest() {
+	con.FgGreen("以测试模式启动JJGo服务")
+	logger.JJGoLogger.Info("以测试模式运行...")
+	//err := jjgo.engine.Run(fmt.Sprintf(":%d", config.JJGoConf.Port))
+	gin.SetMode("debug")
+	err := jjgo.engine.Run(":8080")
 	if err != nil {
+		con.FgRed("以测试模式启动JJGo服务失败")
 		logger.JJGoLogger.Error("JJGo start failed", err)
 		os.Exit(1)
 	}
@@ -104,10 +110,12 @@ func (jjgo *JJGoEngine) RunDaemon() {
 		// 是守护进程
 		return
 	}
+	con.FgGreen("以守护模式启动JJGo服务")
 	logger.JJGoLogger.Info("以守护进程启动")
 	// 守护进程额外写入daemon.txt文件
-	fp, err := os.OpenFile(path.Join("logs", "daemon.txt"), os.O_CREATE|os.O_WRONLY, 0644)
+	fp, err := os.OpenFile(path.Join("logs", "daemon.txt"), os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
+		con.FgRed("以守护模式启动JJGo服务失败")
 		logger.JJGoLogger.Error("守护进程启动失败", err)
 		panic(err)
 	}
@@ -127,6 +135,7 @@ func (jjgo *JJGoEngine) RunDaemon() {
 	}
 
 	if err := cmd.Start();err != nil {
+		con.FgRed("以守护模式启动JJGo服务失败")
 		logger.JJGoLogger.Error("守护进程exec启动失败", err)
 		panic(err)
 	}
@@ -135,6 +144,7 @@ func (jjgo *JJGoEngine) RunDaemon() {
 
 // 清空JJGo日志 获取一个全新的Engine
 func (jjgo *JJGoEngine) CleanRun() {
+	con.FgGreen("以全新模式启动JJGo服务")
 	logger.JJGoLogger.Info("以全新模式运行...")
 	logger.JJGoLogger.Clean()
 	s := &http.Server{
@@ -150,6 +160,7 @@ func (jjgo *JJGoEngine) CleanRun() {
 	go func() {
 		err := s.ListenAndServe()
 		if err != nil {
+			con.FgRed("以全新模式启动JJGo服务失败")
 			logger.JJGoLogger.Error("JJGo start failed", err)
 			os.Exit(1)
 		}

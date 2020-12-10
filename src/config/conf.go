@@ -10,23 +10,23 @@ package config
 
 import (
 	"errors"
+	"jjgo/src/logger"
 	"os"
 	"path"
 	"strings"
 	"time"
 
 	"github.com/go-ini/ini"
-	"jjgo/src/logger"
 	"jjgo/src/model"
 )
 
 var JJGoConf model.Config
 
 func init() {
-	JJGoConf, _ = ReadConf()
+	JJGoConf, _ = ReadConf(true)
 }
 
-func ReadConf() (model.Config, error) {
+func ReadConf(init bool) (model.Config, error) {
 	var conf model.Config
 	cwdPath , pathErr := os.Getwd()
 	if pathErr != nil {
@@ -60,8 +60,10 @@ func ReadConf() (model.Config, error) {
 		DBMysite: cfg.Section("database").Key("db_mysite").String(),
 		DBBlog: cfg.Section("database").Key("db_blog").String(),
 	}
-	confLogger := logger.InitLogger(conf.LogPath, conf.Mode)
-	confLogger.Info("配置文件读取完毕")
+	if !init {
+		confLogger := logger.InitLogger(conf.LogPath, conf.Mode)
+		confLogger.Info("配置文件读取完毕")
+	}
 
 	return conf, nil
 }
