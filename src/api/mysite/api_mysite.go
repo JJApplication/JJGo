@@ -15,6 +15,7 @@ import (
 	"jjgo/src/logger"
 	"jjgo/src/model"
 	"jjgo/src/model/database"
+	"jjgo/src/url"
 	"jjgo/src/util"
 )
 
@@ -29,16 +30,16 @@ func Mysite(r *gin.Engine) {
 			map[string]string{"api": "[mysite]", "path": c.FullPath()},
 		)
 	}
-	ApiMysite = r.Group("/rest/mysite")
+	ApiMysite = r.Group(url.PREFIX_MYSITE)
 	{
-		ApiMysite.GET("", info)
-		ApiMysite.GET("/get_blog", mysiteBlog)
-		ApiMysite.GET("/get_post", mysitePost)
-		ApiMysite.GET("/get_problems", mysiteProblems)
-		ApiMysite.GET("/get_thoughts", mysiteThoughts)
-		ApiMysite.GET("/get_message", mysiteMessage)
-		ApiMysite.GET("/get_music", mysiteMusic)
-		ApiMysite.GET("/get_views", mysiteViews)
+		ApiMysite.GET(url.MYSITE_INDEX, info)
+		ApiMysite.GET(url.MYSITE_GET_BLOG, mysiteBlog)
+		ApiMysite.GET(url.MYSITE_GET_POST, mysitePost)
+		ApiMysite.GET(url.MYSITE_GET_PROBLEMS, mysiteProblems)
+		ApiMysite.GET(url.MYSITE_GET_THOUGHTS, mysiteThoughts)
+		ApiMysite.GET(url.MYSITE_GET_MESSAGE, mysiteMessage)
+		ApiMysite.GET(url.MYSITE_GET_MUSIC, mysiteMusic)
+		ApiMysite.GET(url.MYSITE_GET_VIEWS, mysiteViews)
 	}
 }
 

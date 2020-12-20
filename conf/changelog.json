@@ -53,5 +53,20 @@
     "version": "2.5",
     "build": "2020-12-10",
     "description": "优化jjgo运行命令行参数"
+  },
+  {
+    "version": "2.6",
+    "build": "2020-12-12",
+    "description": "添加启动进度条，中间件组件化支持通过配置重载中间件"
+  },
+  {
+    "version": "2.7",
+    "build": "2020-12-20",
+    "description": "jjgo接口支持cookie机制，通过session保存客户端信息"
+  },
+  {
+    "version": "2.8",
+    "build": "2020-12-20",
+    "description": "jjgo接口抽离设计"
   }
 ]

@@ -9,6 +9,7 @@ JJGo的self接口，主要负责和前端交互json数据
 package jjgo
 
 import (
+	"jjgo/src/url"
 	"os"
 
 	"github.com/gin-gonic/gin"
@@ -31,15 +32,15 @@ func JJGoSelf(r *gin.Engine) {
 			map[string]string{"api": "[jjgo]", "path": c.FullPath()},
 		)
 	}
-	ApiJJGo = r.Group("/rest/jjgo")
+	ApiJJGo = r.Group(url.PREFIX_JJGO)
 	{
-		ApiJJGo.GET("", info)
-		ApiJJGo.GET("/pub", jjgoPubTest)
-		ApiJJGo.GET("/status", jjgoStatus)
-		ApiJJGo.GET("/changelog", jjgoChangeLog)
-		ApiJJGo.GET("/version", jjgoVersion)
-		ApiJJGo.GET("/demo", jjgoDemo)
-		ApiJJGo.GET("/swagger.json", jjgoJSON)
+		ApiJJGo.GET(url.JJGO_INDEX, info)
+		ApiJJGo.GET(url.JJGO_PUB, jjgoPubTest)
+		ApiJJGo.GET(url.JJGO_STATUS, jjgoStatus)
+		ApiJJGo.GET(url.JJGO_CHANGELOG, jjgoChangeLog)
+		ApiJJGo.GET(url.JJGO_VERSION, jjgoVersion)
+		ApiJJGo.GET(url.JJGO_DEMO, jjgoDemo)
+		ApiJJGo.GET(url.JJGO_SWAGGER, jjgoJSON)
 	}
 }
 

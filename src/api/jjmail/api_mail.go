@@ -14,6 +14,7 @@ package jjmail
 import (
 	"encoding/json"
 	"fmt"
+	"jjgo/src/url"
 	"os"
 	"os/exec"
 	"path"
@@ -40,19 +41,19 @@ func JJMail(r *gin.Engine) {
 			map[string]string{"api": "[jjmail]", "path": c.FullPath()},
 		)
 	}
-	ApiJJMail = r.Group("/rest/jjmail")
+	ApiJJMail = r.Group(url.PREFIX_JJMAIL)
 	{
-		ApiJJMail.GET("", info)
-		ApiJJMail.POST("/status", jjmailStatus)
-		ApiJJMail.PUT("/sub_blog", jjmailSubBlog, middleware.JJAuth())
-		ApiJJMail.DELETE("/unsub_blog", jjmailUnsubBlog)
-		ApiJJMail.GET("/unsub_blog", jjmailUnsubBlog)
+		ApiJJMail.GET(url.JJMAIL_INDEX, info)
+		ApiJJMail.POST(url.JJMAIL_STATUS, jjmailStatus)
+		ApiJJMail.PUT(url.JJMAIL_SUB_BLOG, jjmailSubBlog, middleware.JJAuth())
+		ApiJJMail.DELETE(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
+		ApiJJMail.GET(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
 		// 用于发送指定消息
-		ApiJJMail.POST("/send", jjmailSend, middleware.JJAuth())
-		ApiJJMail.PUT("/reply", jjmailReply)
-		ApiJJMail.PUT("/sub_mgek", jjmailSubMgek, middleware.JJAuth())
-		ApiJJMail.DELETE("/unsub_mgek", jjmailUnsubMgek)
-		ApiJJMail.GET("/unsub_mgek", jjmailUnsubMgek)
+		ApiJJMail.POST(url.JJMAIL_SEND, jjmailSend, middleware.JJAuth())
+		ApiJJMail.PUT(url.JJMAIL_REPLY, jjmailReply)
+		ApiJJMail.PUT(url.JJMAIL_SUB_MGEK, jjmailSubMgek, middleware.JJAuth())
+		ApiJJMail.DELETE(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
+		ApiJJMail.GET(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
 	}
 }
 

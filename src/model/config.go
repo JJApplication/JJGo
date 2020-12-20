@@ -31,6 +31,8 @@ type Config struct {
 	DBJJGo       string
 	DBMysite     string
 	DBBlog       string
+
+	MiddleWare   map[string]string
 }
 
 

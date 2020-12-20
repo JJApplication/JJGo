@@ -56,3 +56,15 @@ func APICount() gin.HandlerFunc {
 	}
 }
 
+// 强制保存内存中的计数器到数据库
+func ForceSaveCount() {
+	n := database.JJGoAPICount{}
+	err := db.FindFirstByStruct(database.JJGoAPICount{API: "all"}, &n).Error
+	if err == nil {
+		n.Count += count
+		count = 0 // 重新赋值
+		db.Update(database.JJGoAPICount{}, &n)
+	}else {
+		//
+	}
+}

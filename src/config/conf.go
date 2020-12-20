@@ -59,11 +59,32 @@ func ReadConf(init bool) (model.Config, error) {
 		DBJJGo: cfg.Section("database").Key("db_jjgo").String(),
 		DBMysite: cfg.Section("database").Key("db_mysite").String(),
 		DBBlog: cfg.Section("database").Key("db_blog").String(),
+
+		MiddleWare: cfg.Section("middleware").KeysHash(),
 	}
+
 	if !init {
 		confLogger := logger.InitLogger(conf.LogPath, conf.Mode)
 		confLogger.Info("配置文件读取完毕")
 	}
 
 	return conf, nil
+}
+
+// 热更新中间件 不重启服务还是不能热更新 这只是更新配置
+func ReloadMiddleConf() {
+	// 无需判断文件路径 如果有问题启动就会失败
+	cwdPath , pathErr := os.Getwd()
+	if pathErr != nil {
+		// 暂无日志打印 出现错误即不进行重载
+	}
+	iniPath := path.Join(cwdPath, "conf" ,"jjgo.ini")
+
+	cfg, err := ini.Load(iniPath)
+	if err != nil {
+		// pass
+	}else {
+		// reload global config
+		JJGoConf.MiddleWare = cfg.Section("middleware").KeysHash()
+	}
 }
