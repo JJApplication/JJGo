@@ -50,10 +50,11 @@ func ReadConf(init bool) (model.Config, error) {
 
 		LogRoot: cfg.Section("log").Key("log_root").String(),
 		LogPath: cfg.Section("log").Key("log_path").String(),
+		Color: cfg.Section("log").Key("color").MustBool(false),
 
 		AuthMethod: cfg.Section("auth").Key("auth_method").String(),
 		AuthKey: cfg.Section("auth").Key("auth_key").String(),
-
+		JJAuthKey: cfg.Section("auth").Key("jjauth").String(),
 		Cluster: strings.Fields(cfg.Section("cluster").Key("ports").String()),
 
 		DBJJGo: cfg.Section("database").Key("db_jjgo").String(),

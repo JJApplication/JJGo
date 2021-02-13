@@ -11,7 +11,6 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 	"jjgo/src/config"
-	"jjgo/src/model"
 	"jjgo/src/util"
 )
 
@@ -20,70 +19,21 @@ import (
 // 普通验证方式无预先申请token接口，输入自定的token key直接验证(明文校验)
 //
 // 注意验证是在成功登陆或者请求时的操作，而firewall是对垃圾请求的拦截所以应该在auth前注册
+//
+// jjauth jjapps之间的直接通信协议 在白名单前直接被验证
+// 支持cookie token-header param三种方式
+// 实现任意一种即可其中cookie内容需要加解密 仅在服务器配置中开启
 func JJAuth() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		authMethod := config.JJGoConf.AuthMethod
-		authKey := config.JJGoConf.AuthKey
-
-		switch authMethod {
-		case "token_header":
-			if checkTokenHeader(c, authKey) {
-				c.Next()
-			}else {
-				util.JJResponse(
-					c,
-					model.HTTP_FORBIDDEN,
-					// 因为想要输出错误页面信息
-					"forbidden to access, Token required",
-					"403 Forbidden",
-				)
-				c.AbortWithStatus(model.HTTP_FORBIDDEN)
-				return
-			}
-		case "token_params":
-			if checkTokenParams(c, authKey) {
-				c.Next()
-			}else {
-				util.JJResponse(
-					c,
-					model.HTTP_FORBIDDEN,
-					// 因为想要输出错误页面信息
-					"forbidden to access, Token required",
-					"403 Forbidden",
-				)
-				c.AbortWithStatus(model.HTTP_FORBIDDEN)
-				return
-			}
-		default:
-			if checkTokenHeader(c, authKey) {
-				c.Next()
-			}else {
-				util.JJResponse(
-					c,
-					model.HTTP_FORBIDDEN,
-					// 因为想要输出错误页面信息
-					"forbidden to access, Token required",
-					"403 Forbidden",
-				)
-				c.AbortWithStatus(model.HTTP_FORBIDDEN)
-				return
-			}
+		// jjauth校验失败则进入顺序其他校验流程
+		expectedKey := config.JJGoConf.JJAuthKey
+		if util.VerifyAgent(c) && util.VerifyAll(c, expectedKey) {
+			c.Header("jjauth", "active")
+			c.Next()
+		}else {
+			// first firewall
+			CheckList(c)
+			// second token auth
 		}
 	}
-}
-
-func checkTokenHeader(c *gin.Context, authKey string) bool {
-	headerToken := c.Request.Header.Get("token")
-	if headerToken == util.TokenEncrypt(authKey) {
-		return true
-	}
-	return false
-}
-
-func checkTokenParams(c *gin.Context, authKey string) bool {
-	headerToken := c.DefaultQuery("token", "")
-	if headerToken == util.TokenEncrypt(authKey) {
-		return true
-	}
-	return false
 }

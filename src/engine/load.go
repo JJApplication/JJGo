@@ -42,6 +42,9 @@ func loadMiddleware(handler *gin.Engine) {
 		"api_count": middleware.APICount(),
 		"cors": middleware.Cors(),
 		"page_not_found": middleware.PageNotFound(),
+		"safe_header": middleware.HTTPSafeHeader(),
+		"jjauth": middleware.JJAuth(),
+		"cookie_builder": middleware.CookieBuilder(),
 	}
 
 	if config.JJGoConf.MiddleWare == nil || len(config.JJGoConf.MiddleWare) == 0 {
@@ -66,7 +69,7 @@ func loadMiddleware(handler *gin.Engine) {
 func sortMiddleware(m map[string]string) []map[string]string {
 	// 默认的map不排序 我们自己设置带顺序的数组
 	sortedList := []string{
-		"log", "recovery", "type_allowed", "response_time", "api_count", "cors", "page_not_found", "jjauth"}
+		"log", "recovery", "type_allowed", "response_time", "api_count", "cors", "page_not_found", "jjauth", "safe_header", "cookie_builder"}
 	var sorted []map[string]string
 
 	for _, key := range sortedList {
@@ -88,8 +91,10 @@ func loadAll(handler *gin.Engine) {
 	handler.Use(middleware.ResponseTime())
 	handler.Use(middleware.APICount())
 	handler.Use(middleware.Cors())
-	handler.Use(middleware.Firewall())
+	handler.Use(middleware.JJAuth())
 	handler.Use(middleware.PageNotFound())
+	handler.Use(middleware.HTTPSafeHeader())
+	handler.Use(middleware.CookieBuilder())
 }
 
 // 配置GIN

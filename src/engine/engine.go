@@ -11,6 +11,7 @@ package engine
 import (
 	"context"
 	"fmt"
+	"jjgo/src/model/errors"
 	"net/http"
 	"os"
 	"os/exec"
@@ -84,7 +85,7 @@ func (jjgo *JJGoEngine) Run() {
 	err := s.ListenAndServe()
 	if err != nil {
 		con.FgRed("以正常模式启动JJGo服务失败")
-		logger.JJGoLogger.Error("JJGo start failed", err)
+		logger.JJGoLogger.Error(errors.SERVER_START_FAIL, err)
 	}
 	<-sigChan
 }
@@ -98,7 +99,7 @@ func (jjgo *JJGoEngine) RunTest() {
 	err := jjgo.engine.Run(":8080")
 	if err != nil {
 		con.FgRed("以测试模式启动JJGo服务失败")
-		logger.JJGoLogger.Error("JJGo start failed", err)
+		logger.JJGoLogger.Error(errors.SERVER_START_FAIL, err)
 		os.Exit(1)
 	}
 }
@@ -161,7 +162,7 @@ func (jjgo *JJGoEngine) CleanRun() {
 		err := s.ListenAndServe()
 		if err != nil {
 			con.FgRed("以全新模式启动JJGo服务失败")
-			logger.JJGoLogger.Error("JJGo start failed", err)
+			logger.JJGoLogger.Error(errors.SERVER_START_FAIL, err)
 			os.Exit(1)
 		}
 	}()
@@ -176,12 +177,12 @@ func (jjgo *JJGoEngine) CleanRun() {
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Second)
 	defer cancel()
 	if err := s.Shutdown(ctx); err != nil {
-		logger.JJGoLogger.Error("JJGo Server Shutdown...", err)
+		logger.JJGoLogger.Warning(errors.SERVER_STOPPED, err.Error())
 		os.Exit(0)
 	}
 	// catching ctx.Done(). timeout of 5 seconds.
 	select {
 	case <-ctx.Done():
-		logger.JJGoLogger.Info("Server will wait 3 seconds to Exit.")
+		logger.JJGoLogger.Info(errors.SERVER_EXIT)
 	}
 }

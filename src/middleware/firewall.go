@@ -19,6 +19,7 @@ import (
 )
 
 // 根据useragent refer host ip拦截请求
+// 所有的拦截都应该走jjauth中间件 以判断是否不拦截
 func Firewall() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// 优先检查jj服务内部的接口调用 只需要检查代理头部
@@ -26,7 +27,7 @@ func Firewall() gin.HandlerFunc {
 		if userAgent == "jjclient" {
 			c.Next()
 		}else {
-			checkList(c)
+			CheckList(c)
 		}
 	}
 }
@@ -44,7 +45,7 @@ func contains(sl []string, s string) bool {
 	return false
 }
 
-func checkList(c *gin.Context) {
+func CheckList(c *gin.Context) {
 	// 直接引入白名单和黑名单，因为在注册中间件之前已经初始化了名单
 	blackList := config.BlackList
 	whiteList := config.WhiteList

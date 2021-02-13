@@ -62,11 +62,16 @@
   {
     "version": "2.7",
     "build": "2020-12-20",
-    "description": "jjgo接口支持cookie机制，通过session保存客户端信息"
+    "description": "jjgo接口支持cookie机制，通过session保存客户端信息，jjgo接口抽离设计"
   },
   {
     "version": "2.8",
-    "build": "2020-12-20",
-    "description": "jjgo接口抽离设计"
+    "build": "2020-12-25",
+    "description": "日志支持颜色打印，添加http安全响应头"
+  },
+  {
+    "version": "3.0",
+    "build": "2020-2-13",
+    "description": "增加用户Cookie认证 新增client端认证方式"
   }
 ]

@@ -45,13 +45,13 @@ func JJMail(r *gin.Engine) {
 	{
 		ApiJJMail.GET(url.JJMAIL_INDEX, info)
 		ApiJJMail.POST(url.JJMAIL_STATUS, jjmailStatus)
-		ApiJJMail.PUT(url.JJMAIL_SUB_BLOG, jjmailSubBlog, middleware.JJAuth())
+		ApiJJMail.PUT(url.JJMAIL_SUB_BLOG, jjmailSubBlog, middleware.TokenAuth())
 		ApiJJMail.DELETE(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
 		ApiJJMail.GET(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
 		// 用于发送指定消息
-		ApiJJMail.POST(url.JJMAIL_SEND, jjmailSend, middleware.JJAuth())
+		ApiJJMail.POST(url.JJMAIL_SEND, jjmailSend, middleware.TokenAuth())
 		ApiJJMail.PUT(url.JJMAIL_REPLY, jjmailReply)
-		ApiJJMail.PUT(url.JJMAIL_SUB_MGEK, jjmailSubMgek, middleware.JJAuth())
+		ApiJJMail.PUT(url.JJMAIL_SUB_MGEK, jjmailSubMgek, middleware.TokenAuth())
 		ApiJJMail.DELETE(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
 		ApiJJMail.GET(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
 	}

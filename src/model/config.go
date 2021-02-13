@@ -22,9 +22,12 @@ type Config struct {
 
 	LogRoot       string
 	LogPath       string
-
+	Color         bool
 	AuthMethod    string
 	AuthKey       string
+
+	// jjauth key
+	JJAuthKey     string
 
 	Cluster		  []string
 

@@ -7,7 +7,6 @@ Github: github.com/landers1037
 package engine
 
 import (
-	"fmt"
 	"jjgo/src/config"
 	"jjgo/src/logger"
 	"jjgo/src/util"
@@ -27,6 +26,7 @@ func EditConf() {
 		return
 	}
 	cmd := exec.Command("vi", confPath)
+	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 	_ = cmd.Run()
@@ -44,12 +44,11 @@ func ClearLog() {
 	}
 	f, err := os.OpenFile(logPath, os.O_RDWR|os.O_TRUNC, 0644)
 	if err != nil {
-		con.FgRed("日志文件清空失败")
-		fmt.Println("日志清空失败", err.Error())
+		con.FgRed("日志文件清空失败, err:%s\n", err.Error())
 		return
 	}
-	f.WriteString("")
-	f.Close()
+	_, _ = f.WriteString("")
+	_ = f.Close()
 	con.FgGreen("日志已经被清空")
 	return
 }

@@ -11,6 +11,7 @@ package engine
 import (
 	"context"
 	"jjgo/src/middleware"
+	"jjgo/src/model/errors"
 	"net/http"
 	"os"
 	"os/signal"
@@ -42,18 +43,19 @@ func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
 			// 停止
 			if err := s.Shutdown(context.Background()); err != nil {
 				con.FgGreen("JJGo服务关闭完成")
-				logger.JJGoLogger.Error("JJGo Server Shutdown...", err)
-				logger.JJGoLogger.Info("Server will wait for requests to complete before Exit.")
+				logger.JJGoLogger.Warning(errors.SERVER_STOPPED, err.Error())
+				logger.JJGoLogger.Info(errors.SERVER_EXIT)
 			}
 			// catching ctx.Done(). timeout of 5 seconds.
-			logger.JJGoLogger.Info("Server will wait for requests to complete before Exit.")
+			logger.JJGoLogger.Info(errors.SERVER_EXIT)
+			logger.JJGoLogger.Warning(errors.SERVER_STOPPED)
 			os.Exit(0)
 
 		case syscall.SIGTERM:
 			// 强制关闭
 			middleware.ForceSaveCount()
 			con.FgGreen("JJGo服务强制关闭完成")
-			logger.JJGoLogger.Info("Server has been Terminated.")
+			logger.JJGoLogger.Info(errors.SERVER_TERMINATED)
 
 		case syscall.SIGUSR1:
 			// 先引入所有的json文件
@@ -66,7 +68,7 @@ func RegisterSignal(s *http.Server, sigChan chan os.Signal) {
 			config.InitJJGoVersion()
 			config.ReloadMiddleConf()
 			con.FgGreen("JJGo服务重载完成")
-			logger.JJGoLogger.Info("Server has reloaded all JSON data.")
+			logger.JJGoLogger.Info(errors.SERVER_RELOADED)
 		}
 	}
 }

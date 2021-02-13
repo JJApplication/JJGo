@@ -11,6 +11,7 @@ package middleware
 import (
 	"fmt"
 	"os"
+	"strconv"
 	"time"
 
 	"github.com/gin-gonic/gin"
@@ -60,17 +61,17 @@ func JJGoLog() gin.HandlerFunc {
 
 		param.Path = path
 
-		_, _ = fmt.Fprint(out, formatter(param))
+		_, _ = fmt.Fprint(out, logger.Green(formatter(param)))
 		}
 	}
 
 
 var defaultLogFormatter = func(param model.LogFormatterParams) string {
-	return fmt.Sprintf("[JJGo] %v | %v %s | %v | [%s] |Refer: %s | HOST: %s | ERRS:%s\n",
+	return fmt.Sprintf(logger.Purple("[JJGO]") + " %s | %s | %s | %v | [%s] |Refer: %s | HOST: %s | " + logger.Red("ERROR:") + "%s\n",
 		param.TimeStamp.Format("2006/01/02 - 15:04:05"),
-		param.StatusCode,
+		logger.Cyan(strconv.Itoa(param.StatusCode)),
 		param.ClientIP,
-		param.Method,
+		logger.Yellow(param.Method),
 		param.Path,
 		param.Request.Referer(),
 		param.Request.Host,
