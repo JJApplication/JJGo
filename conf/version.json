@@ -1,7 +1,7 @@
 {
-  "version": "v3.0",
-  "build_date": "2020-2-13",
+  "version": "v3.1",
+  "build_date": "2020-2-22",
   "jjcli": "v1.2",
   "jjlog": "v1.0",
-  "api_server": "JJGo-API v2"
+  "api_server": "JJGo-API v3"
 }

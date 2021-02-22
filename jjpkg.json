@@ -1,0 +1,25 @@
+{
+  "compile_entry": "src/jjgo.go",
+  "app_info": {
+    "name": "jjgo",
+    "id": "app_jjgo",
+    "version": "3.1",
+    "description": "JJGo API Server"
+  },
+  "workdir": {
+    "root": "/home/apps",
+    "log": "./logs"
+  },
+  "config": {
+    "port": [10012, 10013]
+  },
+  "cmd": {
+    "start": "./app_jjgo -s start",
+    "stop": "./app_jjgo -s stop",
+    "restart": "./app_jjgo -s restart",
+    "reload": "./app_jjgo -s reload",
+    "status": "./app_jjgo -s status",
+    "daemon": "./app_jjgo -r daemon",
+    "test": "./app_jjgo -r test"
+  }
+}

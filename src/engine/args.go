@@ -46,7 +46,7 @@ func ParseArgs(arg string) {
 func start() {
 	con.FgCyan("仅支持默认启动，守护进程请使用")
 	con.FgGreen("jjgo -r daemon")
-	cmd := exec.Command("bash", "-c", "nohup ./jjgo > /dev/null 2>&1 &")
+	cmd := exec.Command("bash", "-c", "nohup ./app_jjgo > /dev/null 2>&1 &")
 	err := cmd.Run()
 	if err != nil {
 		con.FgRed("JJGo启动失败, %v", err)
