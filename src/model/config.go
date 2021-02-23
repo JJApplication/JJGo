@@ -36,6 +36,8 @@ type Config struct {
 	DBBlog       string
 
 	MiddleWare   map[string]string
+
+	Domain       string
 }
 
 

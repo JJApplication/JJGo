@@ -62,6 +62,8 @@ func ReadConf(init bool) (model.Config, error) {
 		DBBlog: cfg.Section("database").Key("db_blog").String(),
 
 		MiddleWare: cfg.Section("middleware").KeysHash(),
+
+		Domain: cfg.Section("server").Key("domain").String(),
 	}
 
 	if !init {

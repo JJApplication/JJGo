@@ -8,6 +8,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
+	"jjgo/src/config"
 	"jjgo/src/util"
 )
 
@@ -19,8 +20,10 @@ func CookieBuilder() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// 内建的cookie主要作用统计用户的唯一性
 		// 注意：用于app间交互的cookie是有client端携带的不由jjgo生成
+		// 判断是否存在cookie
+
 		cook := util.CookieNew(c)
-		c.SetCookie("userid", cook, 3600, "/", "localhost", false, true)
+		c.SetCookie("userid", cook, 3600, "/", config.JJGoConf.Domain, false, true)
 		c.Next()
 	}
 }
