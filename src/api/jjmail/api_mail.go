@@ -45,13 +45,13 @@ func JJMail(r *gin.Engine) {
 	{
 		ApiJJMail.GET(url.JJMAIL_INDEX, info)
 		ApiJJMail.POST(url.JJMAIL_STATUS, jjmailStatus)
-		ApiJJMail.PUT(url.JJMAIL_SUB_BLOG, jjmailSubBlog, middleware.TokenAuth())
+		ApiJJMail.PUT(url.JJMAIL_SUB_BLOG, middleware.TokenAuth(), jjmailSubBlog)
 		ApiJJMail.DELETE(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
 		ApiJJMail.GET(url.JJMAIL_UNSUB_BLOG, jjmailUnsubBlog)
 		// 用于发送指定消息
-		ApiJJMail.POST(url.JJMAIL_SEND, jjmailSend, middleware.TokenAuth())
-		ApiJJMail.PUT(url.JJMAIL_REPLY, jjmailReply)
-		ApiJJMail.PUT(url.JJMAIL_SUB_MGEK, jjmailSubMgek, middleware.TokenAuth())
+		ApiJJMail.POST(url.JJMAIL_SEND, middleware.TokenAuth(), jjmailSend)
+		ApiJJMail.PUT(url.JJMAIL_REPLY, middleware.TokenAuth(), jjmailReply)
+		ApiJJMail.PUT(url.JJMAIL_SUB_MGEK, middleware.TokenAuth(), jjmailSubMgek)
 		ApiJJMail.DELETE(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
 		ApiJJMail.GET(url.JJMAIL_UNSUB_MGEK, jjmailUnsubMgek)
 	}
@@ -79,7 +79,7 @@ func jjmailSubBlog(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
@@ -90,7 +90,7 @@ func jjmailSubBlog(c *gin.Context) {
 	err = db.FindAll(&posts).Error
 	if err != nil  || len(posts) <= 5 {
 		logger.JJGoLogger.Error("数据库读取失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 		return
 	}
@@ -103,19 +103,19 @@ func jjmailSubBlog(c *gin.Context) {
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, blog", err)
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			model.OK)
 	}else {
 		logger.JJGoLogger.Error("执行jjmail脚本结果, blog", string(opt[:]))
 		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 	}
 }
@@ -125,7 +125,7 @@ func jjmailUnsubBlog(c *gin.Context) {
 	// 获取参数中的邮箱地址
 	if c.Request.Method == "GET" {
 		address := c.Query("address")
-		util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			address)
 		return
 	}
@@ -134,14 +134,14 @@ func jjmailUnsubBlog(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
 	address := body.Address
 	// 从redis中删除邮箱
 	logger.JJGoLogger.Info(fmt.Sprintf("blog邮件取消订阅: %s", address))
-	util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		body)
 	return
 }
@@ -154,7 +154,7 @@ func jjmailReply(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
@@ -165,18 +165,18 @@ func jjmailReply(c *gin.Context) {
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, reply", err)
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			model.OK)
 	}else {
 		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 	}
 }
@@ -189,7 +189,7 @@ func jjmailSubMgek(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
@@ -200,18 +200,18 @@ func jjmailSubMgek(c *gin.Context) {
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, mgek", err)
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
 		logger.JJGoLogger.Info(fmt.Sprintf("订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			model.OK)
 	}else {
 		logger.JJGoLogger.Info(fmt.Sprintf("脚本执行异常, 订阅邮箱: %s", address))
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 	}
 }
@@ -221,7 +221,7 @@ func jjmailUnsubMgek(c *gin.Context) {
 	// 获取参数中的邮箱地址
 	if c.Request.Method == "GET" {
 		address := c.Query("address")
-		util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			address)
 		return
 	}
@@ -230,14 +230,14 @@ func jjmailUnsubMgek(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
 	address := body.Address
 	// 从redis中删除邮箱
 	logger.JJGoLogger.Info(fmt.Sprintf("mgek邮件取消订阅: %s", address))
-	util.JJResponse(c, model.HTTP_STATUS_OK, "unsub success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		model.OK)
 	return
 }
@@ -251,7 +251,7 @@ func jjmailSend(c *gin.Context) {
 	if err != nil {
 		// body读取失败
 		logger.JJGoLogger.Error("读取请求体失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "parse body failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_PARSE_BODY_FAILED,
 			model.BAD)
 		return
 	}
@@ -262,16 +262,16 @@ func jjmailSend(c *gin.Context) {
 	opt, err := exec.Command("python3", lib_python, address, "send", data).Output()
 	if err != nil {
 		logger.JJGoLogger.Error("执行jjmail脚本失败, send", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 		return
 	}
 
 	if string(opt[:]) == "" || len(opt) == 0 {
-		util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 			model.OK)
 	}else {
-		util.JJResponse(c, model.HTTP_STATUS_OK, "inner failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_INNER_ERR,
 			model.BAD)
 	}
 }

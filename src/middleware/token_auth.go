@@ -39,7 +39,7 @@ func TokenAuth() gin.HandlerFunc {
 						c,
 						model.HTTP_FORBIDDEN,
 						// 因为想要输出错误页面信息
-						"forbidden to access, Token required",
+						model.MSG_FORBIDDEN_NEED_TOKEN,
 						"403 Forbidden",
 					)
 					c.AbortWithStatus(model.HTTP_FORBIDDEN)
@@ -52,9 +52,8 @@ func TokenAuth() gin.HandlerFunc {
 					util.JJResponse(
 						c,
 						model.HTTP_FORBIDDEN,
-
 						// 因为想要输出错误页面信息
-						"forbidden to access, Token required",
+						model.MSG_FORBIDDEN_NEED_TOKEN,
 						"403 Forbidden",
 					)
 					c.AbortWithStatus(model.HTTP_FORBIDDEN)
@@ -68,7 +67,7 @@ func TokenAuth() gin.HandlerFunc {
 						c,
 						model.HTTP_FORBIDDEN,
 						// 因为想要输出错误页面信息
-						"forbidden to access, Token required",
+						model.MSG_FORBIDDEN_NEED_TOKEN,
 						"403 Forbidden",
 					)
 					c.AbortWithStatus(model.HTTP_FORBIDDEN)
@@ -92,7 +91,7 @@ func NormalTokenAuth(c *gin.Context) {
 				c,
 				model.HTTP_FORBIDDEN,
 				// 因为想要输出错误页面信息
-				"forbidden to access, Token required",
+				model.MSG_FORBIDDEN_NEED_TOKEN,
 				"403 Forbidden",
 			)
 			c.AbortWithStatus(model.HTTP_FORBIDDEN)
@@ -106,7 +105,7 @@ func NormalTokenAuth(c *gin.Context) {
 				c,
 				model.HTTP_FORBIDDEN,
 				// 因为想要输出错误页面信息
-				"forbidden to access, Token required",
+				model.MSG_FORBIDDEN_NEED_TOKEN,
 				"403 Forbidden",
 			)
 			c.AbortWithStatus(model.HTTP_FORBIDDEN)
@@ -120,7 +119,7 @@ func NormalTokenAuth(c *gin.Context) {
 				c,
 				model.HTTP_FORBIDDEN,
 				// 因为想要输出错误页面信息
-				"forbidden to access, Token required",
+				model.MSG_FORBIDDEN_NEED_TOKEN,
 				"403 Forbidden",
 			)
 			c.AbortWithStatus(model.HTTP_FORBIDDEN)

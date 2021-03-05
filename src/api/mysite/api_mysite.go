@@ -70,7 +70,7 @@ func mysitePost(c *gin.Context) {
 	// 获取文章参数
 	url := c.Query("url")
 	if url == "" {
-		util.JJResponse(c, model.HTTP_STATUS_OK, "args required like ?url=",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_QUERY_PARAMS_FAILED,
 			database.Post{})
 		return
 	}
@@ -81,11 +81,11 @@ func mysitePost(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取文章数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			database.Post{})
 		return
 	}
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success", p)
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS, p)
 	return
 }
 
@@ -98,11 +98,11 @@ func mysiteProblems(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取问题数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			[]database.Problems{})
 		return
 	}
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		problems)
 	return
 }
@@ -116,12 +116,12 @@ func mysiteThoughts(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取想法数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			[]database.Thoughts{})
 		return
 	}
 
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		thoughts)
 	return
 }
@@ -135,11 +135,11 @@ func mysiteMessage(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取留言数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			[]database.Message{})
 		return
 	}
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		message)
 	return
 }
@@ -153,11 +153,11 @@ func mysiteViews(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取访问量数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			database.Message{})
 		return
 	}
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		views)
 	return
 }
@@ -171,11 +171,11 @@ func mysiteMusic(c *gin.Context) {
 	defer db.Close()
 	if err != nil {
 		logger.JJGoLogger.Error("获取歌单数据库失败", err)
-		util.JJResponse(c, model.HTTP_STATUS_OK, "failed",
+		util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_FAILED,
 			[]database.Music{})
 		return
 	}
-	util.JJResponse(c, model.HTTP_STATUS_OK, "success",
+	util.JJResponse(c, model.HTTP_STATUS_OK, model.MSG_SUCCESS,
 		music)
 	return
 }

@@ -14,8 +14,8 @@ import (
 func HTTPSafeHeader() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		c.Header("JJGO Server", "JJGO-API")
-		c.Header("Version", "API V2")
-		c.Header("JJAPP", "JJGO")
+		c.Header("Version", "API V3")
+		c.Header("APP", "JJGO")
 		c.Header("Copyright", "Landers1037")
 		c.Header("Github", "github.com/landers1037")
 		c.Header("X-frame-Options", "SAMEORIGIN")

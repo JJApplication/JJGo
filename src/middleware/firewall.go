@@ -20,11 +20,13 @@ import (
 
 // 根据useragent refer host ip拦截请求
 // 所有的拦截都应该走jjauth中间件 以判断是否不拦截
+//
+// 对于特殊请求 如get来退订服务的 应该默认允许
 func Firewall() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		// 优先检查jj服务内部的接口调用 只需要检查代理头部
 		userAgent := c.Request.UserAgent()
-		if userAgent == "jjclient" {
+		if userAgent == "jjclient" || c.Request.Method == "GET" {
 			c.Next()
 		}else {
 			CheckList(c)

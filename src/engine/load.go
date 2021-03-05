@@ -38,6 +38,7 @@ func loadMiddleware(handler *gin.Engine) {
 		"log": middleware.JJGoLog(),
 		"recovery": gin.Recovery(),
 		"type_allowed": middleware.TypeAllowed(),
+		"firewall": middleware.Firewall(),
 		"response_time": middleware.ResponseTime(),
 		"api_count": middleware.APICount(),
 		"cors": middleware.Cors(),
@@ -69,7 +70,7 @@ func loadMiddleware(handler *gin.Engine) {
 func sortMiddleware(m map[string]string) []map[string]string {
 	// 默认的map不排序 我们自己设置带顺序的数组
 	sortedList := []string{
-		"log", "recovery", "type_allowed", "response_time", "api_count", "cors", "page_not_found", "jjauth", "safe_header", "cookie_builder"}
+		"log", "recovery","cors", "type_allowed", "firewall", "response_time", "api_count", "page_not_found", "jjauth", "safe_header", "cookie_builder"}
 	var sorted []map[string]string
 
 	for _, key := range sortedList {

@@ -30,9 +30,11 @@ func JJResponse(c *gin.Context, httpCode int, msg string, data interface{}) {
 		"msg": msg,
 		"data": data,
 	})
+	return
 }
 
 // 统一raw格式 JSON响应
 func JJRawResponse(c *gin.Context, httpCode int, data interface{}) {
 	c.JSON(httpCode, data)
+	return
 }
