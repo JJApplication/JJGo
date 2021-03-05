@@ -56,6 +56,17 @@ func CheckList(c *gin.Context) {
 	host := c.Request.Host
 	ip := c.ClientIP()
 	// 先通过全部白名单的请求
+	if refer == "" || host == "" {
+		util.JJResponse(
+			c,
+			model.HTTP_FORBIDDEN,
+			// 因为想要输出错误页面信息
+			"forbidden to access",
+			"403 Forbidden",
+		)
+		c.AbortWithStatus(model.HTTP_FORBIDDEN)
+		return
+	}
 	if contains(whiteList.Refer, refer) || contains(whiteList.Host, host) || contains(whiteList.IP, ip) {
 		c.Next()
 	}else {

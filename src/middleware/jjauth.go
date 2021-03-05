@@ -32,7 +32,7 @@ func JJAuth() gin.HandlerFunc {
 			c.Next()
 		}else {
 			// first firewall
-			CheckList(c)
+			// CheckList(c) 多余校验firewall作为顶层足够
 			// second token auth
 		}
 	}
